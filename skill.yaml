@@ -1,0 +1,16 @@
+name: agent_phone_skill
+title: Agent Phone Skill — AI voice calls, SMS & booking (Twilio + Vapi)
+description: >-
+  Gives an AI agent a phone: outbound conversational AI calls and inbound
+  AI receptionists via Vapi, plain scripted calls and SMS via Twilio, and
+  in-call appointment booking (tool call -> webhook -> calendar ->
+  confirmation SMS). Covers call records and reporting (status,
+  endedReason, cost, transcript, recording URL), approval gates,
+  opt-out/never-contact handling, spend tracking, and observed platform
+  limits. Use for phone calling, AI receptionists, call campaigns, SMS
+  confirmations, and phone booking. Do NOT use for email, chat-app
+  messaging, or unapproved outreach.
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false

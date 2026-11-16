@@ -1,0 +1,18 @@
+# Secrets — never commit credentials
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+
+# Python
+__pycache__/
+*.pyc
+
+# Example runtime data
+examples/booking-webhook/calendar.json
+
+# OS / editor
+.DS_Store
+*.swp
